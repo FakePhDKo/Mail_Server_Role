@@ -1,0 +1,10 @@
+---
+- name: Postfix 메일 서버 구축
+  hosts: all
+  become: true
+  gather_facts: false
+
+  tasks:
+    - name: 1) mail_server role 가져오기
+      ansible.builtin.import_role:
+        name: mail_server

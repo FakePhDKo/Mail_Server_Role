@@ -1,0 +1,7 @@
+---
+my_hostname: ansible1.example1.com
+my_host: ansible1
+my_ip: 192.168.10.11
+other_hostname: ansible2.example2.com
+other_host: ansible2
+other_ip: 192.168.10.12
